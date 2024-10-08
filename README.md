@@ -1,7 +1,10 @@
 # EMG-Arm-project
 To Develop a 3D Printed Myoelectric Prosthetic Arm or Robotic Arm to Control Hand Movements.
 
+Working principle:
+
 The controlling of prosthetic arm is based on Electromyography sensor module, which is controlled by another hand by wearing the band.
+
 Step-1: Electromyography sensor (EMG) is connected to dry electrode and further, the dry electrode is attached to bicep muscle.
 Step-2: EMG sensor will detect the moment of the muscle and produce some reference value depending on the EMG signal received on the sensor.
 Step-3: the produced reference value if filtered and amplified, then amplified signal is fed to microcontroller.
